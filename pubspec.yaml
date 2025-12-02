@@ -1,7 +1,7 @@
 name: quill_html_editor
 description: HTML rich text editor for Android, iOS, and Web, it is built with the powerful Quill Js library. Which is an open source WYSIWYG editor built for the modern web.
 
-version: 2.2.2
+version: 2.2.2+1
 homepage: https://github.com/the-airbender/quill_html_editor
 repository: https://github.com/the-airbender/quill_html_editor
 maintainer: Pavan Kumar Nagulavancha
@@ -16,7 +16,7 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   ##### For image picker widget
-  file_picker: ^5.3.2
+  file_picker: ^10.3.3
   ##### For webveiwx widget
   http: ^1.0.0
   path: ^1.8.2
@@ -33,14 +33,6 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  plugin:
-    platforms:
-      android:
-        default_package: quill_html_editor
-      ios:
-        default_package: quill_html_editor
-      web:
-        default_package: quill_html_editor
   assets:
       - packages/quill_html_editor/assets/camera_roll_icon.png
       - packages/quill_html_editor/assets/h1_dark.png
